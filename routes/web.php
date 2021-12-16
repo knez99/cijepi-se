@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/Onama.blade.php', function () {
+Route::get('/Onama.php', function () {
     return view('Onama');
 });
 
-Route::get('/Register_Login.blade.php', function () {
+Route::get('/Register_Login.php', function () {
     return view('Register_Login');
 });
