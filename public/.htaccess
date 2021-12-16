@@ -4,7 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteBase "/projekti/pzio/2022/g1/"
+    RewriteBase ./projekti/pzio/2022/g1/
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
