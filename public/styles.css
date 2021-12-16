@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Karla';
+}
+
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+
+.card-title {
+    font-size: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    font-size:18px;
+}
+
+.cardteam {
+    width: 20rem;
+    height: 35rem;
+    margin: auto;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.container {
+    padding-top: 10px;
+}
