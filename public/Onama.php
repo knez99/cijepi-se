@@ -22,7 +22,7 @@ if (!empty($_GET['q'])) {
   <link href="https://fonts.googleapis.com/css?family=Karla:400" rel="stylesheet" type="text/css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ asset('/styles.css') }}">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -40,10 +40,10 @@ if (!empty($_GET['q'])) {
             <a class="nav-link" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Onama.blade.php">O nama</a>
+            <a class="nav-link active" aria-current="page" href="Onama.php">O nama</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Register_Login.blade.php">Register / Login</a>
+            <a class="nav-link" href="Register_Login.php">Register / Login</a>
           </li>
           <li class="d-flex"></li>
         </ul>
@@ -55,7 +55,7 @@ if (!empty($_GET['q'])) {
   <div class="container">
     <div class="row">
       <div class="cardteam">
-        <img src="{{ asset('/images/david.png') }}" class="card-img-top">
+        <img src="images/david.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">David Miličić</h5>
           <p class="card-text">Pozdrav, ja sam David Miličić. Imam 21 godinu i zivim u Ugljari. Student sam treće godine Informatike u Orašju. Slobodno vrijeme provodim igrajući igre i družeći se sa prijateljima.</p>
@@ -65,7 +65,7 @@ if (!empty($_GET['q'])) {
 
 
       <div class="cardteam">
-        <img src="{{ asset('/images/kruno.png') }}" class="card-img-top">
+        <img src="images/kruno.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Krunoslav Knežević</h5>
           <p class="card-text">Pozdrav, ja sam Krunoslav Knezevic. Imam 22 godine i zivim u Jenjiću.Student sam treće godine Informatike u Orašju. U slobodno vrijeme igram nogomet,igre i družim se s prijateljima.</p>
@@ -75,7 +75,7 @@ if (!empty($_GET['q'])) {
 
 
       <div class="cardteam">
-        <img src="{{ asset('/images/mario.jpg') }}" class="card-img-top">
+        <img src="images/mario.jpg" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Mario Nedić</h5>
           <p class="card-text">Pozdrav, ja sam Mario Nedic. Imam 21 godinu i zivim u Tolisi. Trenutno sam student treće godine Informatike u Orašju. Uz faks, slobodno vrijeme provodim s prijateljima, s bratom se bavim izradom namještaja te vikednom radim u diskoteci. 😄</p>

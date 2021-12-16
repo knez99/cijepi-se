@@ -40,10 +40,10 @@ if (!empty($_GET['q'])) {
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Onama.blade.php">O nama</a>
+            <a class="nav-link" href="Onama.php">O nama</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Register_Login.blade.php">Register / Login</a>
+            <a class="nav-link active" aria-current="page" href="Register_Login.php">Register / Login</a>
           </li>
         <li class="d-flex"></li>
         </ul>
