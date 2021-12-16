@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('./projekti/pzio/2022/g1/', function () {
     return view('index');
 });
 
