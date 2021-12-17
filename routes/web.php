@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::get('/Onama.php', function () {
+Route::get('/Onama', function () {
     return view('Onama');
 });
 
-Route::get('/Register_Login.php', function () {
-    return view('Register_Login');
-});
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
