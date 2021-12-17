@@ -22,7 +22,7 @@ body {
 }
 
 .card-title {
-    font-size: bold;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -31,17 +31,9 @@ body {
     font-size:18px;
 }
 
-.cardteam {
-    width: 20rem;
-    height: 35rem;
-    margin: auto;
-    border-style: groove;
-    border-radius: 5px;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 15vw;
+.imgcard {
+    max-width: 100%;
+    height: 60%;
     object-fit: cover;
 }
 
