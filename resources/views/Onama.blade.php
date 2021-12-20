@@ -70,6 +70,7 @@ if (!empty($_GET['q'])) {
         <div class="card-body">
           <h5 class="card-title">David Miličić</h5>
           <p class="card-text">Pozdrav, ja sam David Miličić. Imam 21 godinu i živim u Ugljari. Student sam treće godine Informatike u Orašju. Slobodno vrijeme provodim igrajući igre i družeći se sa prijateljima.</p>
+          <p class="card-text"><a href="https://github.com/DavidMilicic">Github</a></p>
         </div>
       </div>
       <div class="card">
@@ -77,6 +78,7 @@ if (!empty($_GET['q'])) {
         <div class="card-body">
           <h5 class="card-title">Krunoslav Knežević</h5>
           <p class="card-text">Pozdrav, ja sam Krunoslav Knežević. Imam 22 godine i živim u Jenjiću. Student sam treće godine Informatike u Orašju. U slobodno vrijeme igram nogomet,igre i družim se s prijateljima.</p>
+          <p class="card-text"><a href="https://github.com/knez99">Github</a></p>
         </div>
       </div>
       <div class="card">
@@ -84,6 +86,7 @@ if (!empty($_GET['q'])) {
         <div class="card-body">
           <h5 class="card-title">Mario Nedić</h5>
           <p class="card-text">Pozdrav, ja sam Mario Nedić. Imam 21 godinu i živim u Tolisi. Trenutno sam student treće godine Informatike u Orašju. Uz faks, slobodno vrijeme provodim s prijateljima, s bratom se bavim izradom namještaja te vikednom radim u diskoteci. 😄</p>
+          <p class="card-text"><a href="https://github.com/MarioNedic">Github</a></p>
         </div>
       </div>
     </div>
