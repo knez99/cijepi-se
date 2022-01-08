@@ -38,9 +38,10 @@ if (!empty($_GET['q'])) {
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" href="{{ url('/Onama') }}">O nama</a>
+          </li>
           <li> @if (Route::has('login'))
             @auth
-            <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+            <a class="nav-link active" href="{{ url('/home') }}">Home</a>
           </li>
           <li>
             @else
@@ -53,13 +54,14 @@ if (!empty($_GET['q'])) {
             @endauth
             @endif
           </li>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div>Cijepi se</div>
+<div class="d-flex justify-content-center mx-auto">
+<img class="img-fluid" src="images/covid19.jpg">
+</div>
 
   <!-- Bootstrap JS with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

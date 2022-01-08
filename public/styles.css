@@ -28,7 +28,7 @@ body {
 
 .card-text {
     text-align: center;
-    font-size:18px;
+    font-size: 18px;
 }
 
 .imgcard {
@@ -37,6 +37,7 @@ body {
     object-fit: cover;
 }
 
-.container {
-    padding-top: 10px;
-}
+.w-100 {
+    width: 100%;
+    height: auto;
+  }
