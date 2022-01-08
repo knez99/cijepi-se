@@ -68,7 +68,7 @@ if (!empty($_GET['q'])) {
       <div class="card">
         <img src="images/david.png" class="imgcard">
         <div class="card-body">
-          <h5 class="card-title">David Miličić TEST</h5>
+          <h5 class="card-title">David Miličić</h5>
           <p class="card-text">Pozdrav, ja sam David Miličić. Imam 21 godinu i živim u Ugljari. Student sam treće godine Informatike u Orašju. Slobodno vrijeme provodim igrajući igre i družeći se sa prijateljima.</p>
           <p class="card-text"><a href="https://github.com/DavidMilicic">Github</a></p>
         </div>
