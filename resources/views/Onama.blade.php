@@ -43,8 +43,10 @@ if (!empty($_GET['q'])) {
             <a class="nav-link active" href="{{ url('/Onama') }}">O nama</a>
           <li> @if (Route::has('login'))
             @auth
-            <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
           </li>
+          <li>
+              <a class="nav-link active" href="{{ route('logout') }}"> Log out</a>
+            </li>
           <li>
             @else
             <a class="nav-link active" href="{{ route('login') }}">Log in</a>

@@ -41,7 +41,6 @@
                     </li>
                     <li> @if (Route::has('login'))
                         @auth
-                        <a class="nav-link active" href="{{ url('/home') }}">Home</a>
                     </li>
                     <li>
                         @else

@@ -41,8 +41,9 @@ if (!empty($_GET['q'])) {
             </li>
             <li> @if (Route::has('login'))
               @auth
-              <!-- Ovaj home maknit ne treba???? -->
-
+            </li>
+            <li>
+              <a class="nav-link active" href="{{ route('logout') }}"> Log out</a>
             </li>
             <li>
               @else

@@ -23,4 +23,12 @@ Route::get('/Onama', function () {
 
 Auth::routes();
 
+Route::get('logout', function ()
+{
+    auth()->logout();
+    Session()->flush();
+
+    return Redirect::to('/');
+})->name('logout');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
