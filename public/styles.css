@@ -10,23 +10,3 @@ body {
     font-weight: 100;
     font-family: 'Karla';
 }
-
-
-.content {
-    text-align: center;
-    display: inline-block;
-}
-
-.title {
-    font-size: 96px;
-}
-
-.card-title {
-    font-weight: bold;
-    text-align: center;
-}
-
-.card-text {
-    text-align: center;
-    font-size: 18px;
-}
